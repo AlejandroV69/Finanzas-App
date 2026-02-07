@@ -1,59 +1,23 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FinanTrack | Mi Gestor de Gastos</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+# 💰 FinanTrack: Gestor de Gastos
 
-    <div class="container">
-        <header>
-            <h1>FinanTrack</h1>
-            <p>Controla tus finanzas con inteligencia</p>
-        </header>
+**FinanTrack** es una aplicación web sencilla para gestionar tus finanzas personales. Registra ingresos y gastos para mantener un balance saludable.
 
-        <section class="balance-container">
-            <h4>Tu Balance Actual</h4>
-            <h2 id="balance">$0.00</h2>
+---
 
-            <div class="inc-exp-container">
-                <div>
-                    <h4>Ingresos</h4>
-                    <p id="money-plus" class="money plus">+$0.00</p>
-                </div>
-                <div>
-                    <h4>Gastos</h4>
-                    <p id="money-minus" class="money minus">-$0.00</p>
-                </div>
-            </div>
-        </section>
+## ✨ Funcionalidades
+* **Balance en tiempo real:** Cálculo automático de saldo.
+* **Historial:** Registro visual de cada movimiento.
+* **Persistencia:** Los datos se guardan en el navegador.
 
-        <section class="history-container">
-            <h3>Historial</h3>
-            <ul id="list" class="list">
-                </ul>
-        </section>
+## 🛠️ Tecnologías
+* HTML5 (Estructura)
+* CSS3 (Diseño responsivo)
+* JavaScript (Lógica de negocio)
 
-        <section class="form-container">
-            <h3>Añadir nueva transacción</h3>
-            <form id="form">
-                <div class="form-control">
-                    <label for="text">Concepto</label>
-                    <input type="text" id="text" placeholder="Ej: Salario, Alquiler, Pizza..." required />
-                </div>
-                <div class="form-control">
-                    <label for="amount">Monto <br />
-                        <small>(Negativo = gasto, Positivo = ingreso)</small>
-                    </label>
-                    <input type="number" step="0.01" id="amount" placeholder="Ej: -50 o 1200" required />
-                </div>
-                <button class="btn">Agregar Transacción</button>
-            </form>
-        </section>
-    </div>
+## 🚀 Cómo usarla
+1. Descarga los archivos `index.html`, `style.css` y `script.js`.
+2. Abre el `index.html` en cualquier navegador.
+3. ¡Empieza a registrar tus movimientos!
 
-    <script src="script.js"></script>
-</body>
-</html>
+---
+*Creado con fines educativos.*
